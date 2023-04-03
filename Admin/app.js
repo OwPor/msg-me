@@ -16,7 +16,7 @@ const auth =  firebase.auth();
 function signOut(){
 	auth.signOut();
 	alert("Logged out successfully from system!");
-	window.location.href = "file:///C:/Users/rayvi/Desktop/TEST/Login/index.html";
+	window.history.back();
 }
 
 // Get a reference to the database service
