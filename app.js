@@ -26,7 +26,7 @@ function  signIn(){
 
 function signOut(){
 	auth.signOut();
-	alert("SignOut Successfully from System");
+	alert("Logged out successfully from system");
 }
 
 //active user to homepage

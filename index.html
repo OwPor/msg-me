@@ -9,14 +9,18 @@
 	<div class="login-container">
 		<h1>Admin Login</h1>
 		<div class="formContainer">
-		<h1>Login</h1>
-		<input type="email" placeholder="email here" id="email"><br>
-		<input type="password" placeholder="password here" id="password"><br>
-		<button onclick="signIn()" id="signIp">SignIn</button>
-		<button onclick="signOut()" id="signOut">SignOut</button>
+			<h1>Login</h1>
+			<input type="email" placeholder="email here" id="email"><br>
+			<input type="password" placeholder="password here" id="password"><br>
+			<button onclick="signIn()" id="signIn">Login</button>
+			<button onclick="signOut()" id="signOut">Log out</button>
+			
+			<div style="text-align:center;">
+				<button onClick="window.location.href = 'Anonymous/index.html';">Message Anonymously</button>
+			</div>
 		</div>
 	</div>
-
+	
 	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
 	<script src="app.js"></script>
