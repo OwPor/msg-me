@@ -34,10 +34,12 @@ h3 {
 	padding: 10px;
 	margin-right: 10px;
 	font-size: 15px;
+   	overflow: auto;
+   	overflow-x: hidden;
 }
 
 #message-input {
-	width: 70%;
+	width: 80%;
 }
 
 button[type="submit"] {
