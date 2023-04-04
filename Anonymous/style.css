@@ -1,13 +1,3 @@
-h1 {
-	text-align: center;
-}
-
-h3 {
-	text-align: center;
-}
-
-
-
 .chat-container {
 	width: 100%;
 	max-width: 600px;
@@ -18,6 +8,16 @@ h3 {
 	border-radius: 5px;
 }
 
+#chat-messages {
+	height: 400px;
+	overflow-y: scroll;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.message {
+	margin-bottom: 10px;
+}
 /* Styling for the chat container */
 .chat-container {
 	background-color: #f2f2f2;
@@ -28,6 +28,20 @@ h3 {
 	padding: 20px;
 }
 
+/* Styling for the chat messages */
+#chat-messages {
+	margin-bottom: 10px;
+	overflow-y: scroll;
+	max-height: 300px;
+}
+
+/* Styling for the chat form */
+#chat-form {
+	display: flex;
+	flex-direction: row;
+}
+
+#username-input,
 #message-input {
 	border-radius: 5px;
 	border: none;
@@ -36,15 +50,20 @@ h3 {
 	font-size: 16px;
 }
 
+#username-input {
+	width: 20%;
+}
+
 #message-input {
 	width: 80%;
 }
 
 button[type="submit"] {
+	margin: 4px 2px;
 	background-color: #4CAF50;
 	color: white;
 	border: none;
-	border-radius: 20px;
+	border-radius: 30px;
 	padding: 10px 20px;
 	font-size: 15px;
 	cursor: pointer;
@@ -54,6 +73,27 @@ button[type="submit"]:hover {
 	background-color: #45a049;
 }
 
-#s-button {
-	text-align: right;
+/* Styling for individual chat messages */
+.message {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+#signOut {
+	margin: 4px 2px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	padding: 10px 20px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#signOut:hover {
+	background-color: #45a049;
 }

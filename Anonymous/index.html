@@ -9,19 +9,21 @@
 </head>
 <body>
 	<div class="chat-container">
-		<h1> SEND VINCE ANONYMOUS MESSAGES! </h1>
-		<h3> LOGIN TO SEE MESSAGES! </h3>
+		<div id="chat-messages"></div>
 		<form id="chat-form">
 			<!--<input type="text" id="username-input" placeholder="Username"> -->
-			<div id="s-button">
-				<input type="text" id="message-input" placeholder="Message">
-				<button type="submit">Send</button>
-			</div>
+			<input type="text" id="message-input" placeholder="Message">
+			<button type="submit">Send</button>
 		</form>
 	</div>
-
+	
+	<div style="text-align:center;">
+		<button onclick="signOut()" id="signOut">Log out</button>
+	</div>
+	
 	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
