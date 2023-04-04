@@ -16,7 +16,7 @@ const auth =  firebase.auth();
 function signOut(){
 	auth.signOut();
 	alert("Logged out successfully from system!");
-	window.location.href = "https://rvthemoves.github.io/msg-me/Admin/index.html";
+	window.location.href = "https://rvthemoves.github.io/msg-me/index.html";
 }
 
 // Get a reference to the database service
