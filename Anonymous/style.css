@@ -43,8 +43,9 @@ button[type="submit"]:hover {
 	background-color: #45a049;
 }
 
-#in-btn {
+#chat-form {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
