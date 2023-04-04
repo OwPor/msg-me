@@ -1,3 +1,18 @@
+/* Small devices (phones) */
+@media only screen and (max-width: 767px) {
+  /* CSS styles for small devices */
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles for medium devices */
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) {
+  /* CSS styles for large devices */
+}
+
 h1 {
 	text-align: center;
 }
@@ -34,12 +49,10 @@ h3 {
 	padding: 10px;
 	margin-right: 10px;
 	font-size: 15px;
-   	overflow: auto;
-   	overflow-x: hidden;
 }
 
 #message-input {
-	width: 80%;
+	width: 70%;
 }
 
 button[type="submit"] {
