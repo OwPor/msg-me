@@ -10,15 +10,6 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-const auth =  firebase.auth();
-
-//signOut
-function signOut(){
-	auth.signOut();
-	alert("Logged out successfully from system!");
-	window.history.back();
-}
-
 // Get a reference to the database service
 const database = firebase.database();
 
