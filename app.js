@@ -38,6 +38,6 @@ firebase.auth().onAuthStateChanged((user)=>{
 		window.location.href = "Admin/index.html";
 	
 	}else{
-		alert("No Active user Found")
+		alert("No Active User!")
 	}
 });
