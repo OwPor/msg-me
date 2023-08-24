@@ -38,4 +38,4 @@ firebase.auth().onAuthStateChanged((user)=>{
 		window.location.href = "Admin/index.html";
 	
 	}
-}
+});
