@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 const auth =  firebase.auth();
 
 //signIN function
-function  signIn(){
+function signIn(){
 	var email = document.getElementById("email");
 	var password  = document.getElementById("password");
 	const promise = auth.signInWithEmailAndPassword(email.value,password.value);
