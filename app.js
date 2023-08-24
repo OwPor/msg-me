@@ -37,7 +37,6 @@ firebase.auth().onAuthStateChanged((user)=>{
 		// Redirect to the desired page
 		window.location.href = "Admin/index.html";
 	
-	}else{
-		alert("No Active User!")
 	}
+}
 });
